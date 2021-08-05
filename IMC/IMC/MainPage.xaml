@@ -7,7 +7,7 @@
     <StackLayout VerticalOptions="Center"
                  WidthRequest="280"
                  HorizontalOptions="Center">
-        <Label Text= "IMC" FontSize="50" HorizontalTextAlignment="Center" TextColor="#565168"
+        <Label Text= "IMC" FontSize="50" HorizontalTextAlignment="Center" TextColor="Blue"
               FontAttributes="Bold"/>
         <Entry Placeholder="Entry your weight" x:Name="Weight" Keyboard="Numeric"/>
         <Entry Placeholder="Entry your height" x:Name="Height" Keyboard="Numeric"/>
