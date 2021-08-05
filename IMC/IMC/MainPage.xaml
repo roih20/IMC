@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMC.MainPage"
+             Visual="Material">
+
+    <StackLayout VerticalOptions="Center"
+                 WidthRequest="280"
+                 HorizontalOptions="Center">
+        <Label Text= "IMC" FontSize="50" HorizontalTextAlignment="Center" TextColor="#565168"
+              FontAttributes="Bold"/>
+        <Entry Placeholder="Entry your weight" x:Name="Weight" Keyboard="Numeric"/>
+        <Entry Placeholder="Entry your height" x:Name="Height" Keyboard="Numeric"/>
+        <Entry Placeholder="Your IMC" x:Name="Imc" IsEnabled="False"/>
+        <Button Text="Calculated" Clicked="Button_Clicked" BackgroundColor="DarkMagenta"/>
+        
+    </StackLayout>
+
+</ContentPage>
