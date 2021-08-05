@@ -12,7 +12,7 @@
         <Entry Placeholder="Entry your weight" x:Name="Weight" Keyboard="Numeric"/>
         <Entry Placeholder="Entry your height" x:Name="Height" Keyboard="Numeric"/>
         <Entry Placeholder="Your IMC" x:Name="Imc" IsEnabled="False"/>
-        <Button Text="Calculated" Clicked="Button_Clicked" BackgroundColor="DarkMagenta"/>
+        <Button Text="Calculate" Clicked="Button_Clicked" BackgroundColor="DarkMagenta"/>
         
     </StackLayout>
 
